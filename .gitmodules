@@ -1,0 +1,9 @@
+[submodule "dblabs-api"]
+	path = dblabs-api
+	url = https://github.com/Greateapot/dblabs-api
+[submodule "dblabs-server"]
+	path = dblabs-server
+	url = https://github.com/Greateapot/dblabs-server
+[submodule "dblabs-api-repo"]
+	path = dblabs-api-repo
+	url = https://github.com/Greateapot/dblabs-api-repo

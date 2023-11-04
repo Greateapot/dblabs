@@ -1,0 +1,6 @@
+go 1.21.3
+
+use (
+	./dblabs-api/go
+	./dblabs-server
+)
