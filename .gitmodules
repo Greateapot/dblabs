@@ -7,3 +7,6 @@
 [submodule "dblabs-api-repo"]
 	path = dblabs-api-repo
 	url = https://github.com/Greateapot/dblabs-api-repo
+[submodule "dblabs-client"]
+	path = dblabs-client
+	url = https://github.com/Greateapot/dblabs-client
