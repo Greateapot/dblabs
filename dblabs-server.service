@@ -1,0 +1,13 @@
+[Unit]
+Description=DBLabs Server
+Requires=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/user/dblabs/hot-restarter.py /home/user/dblabs/scripts/start-server.sh
+Restart=on-failure
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target
